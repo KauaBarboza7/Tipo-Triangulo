@@ -50,7 +50,7 @@ import java.util.Scanner;
 	        System.out.print(" Coloque o valor do cateto 1: ");
                 cateto1 = scanner.nextDouble();
 
-                System.out.print(" coloque o valor do cateto 2: ");
+                System.out.print(" Coloque o valor do cateto 2: ");
                 cateto2 = scanner.nextDouble();
 
        		hipotenusa = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
