@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class TipoTriangulo {
+    public class TipoTriangulo {
 	 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -9,9 +9,8 @@ public class TipoTriangulo {
 		int x, y, z;
 		double cateto1, cateto2, hipotenusa;
 		
-		
-		
-       		 System.out.print("Digite o valor do lado 1: ");
+	    
+       		System.out.print("Digite o valor do lado 1: ");
          	x = scanner.nextInt();
 
         	System.out.print("Digite o valor do lado 2: ");
@@ -23,10 +22,10 @@ public class TipoTriangulo {
         	System.out.print("\n\n");
 		 
 		 
-		 if (x > 0 && y > 0 && z > 0){
+		if (x > 0 && y > 0 && z > 0){
 		 }
 		 
-		 else {
+		else {
 		System.out.printf(" Esta forma nao é a de um triangulo! " );
 		return;
 		 }
@@ -36,21 +35,22 @@ public class TipoTriangulo {
         	System.out.printf("Este e um triangulo equilatero " );
 		 }
 		 
-		 else if (x == y || x == z || y == z){
+		 
+	        else if (x == y || x == z || y == z){
 		System.out.printf("Este e um triangulo Isosceles " ); 
 		 }
 		 
-		 else{
-	   	 System.out.printf("Este e um triangulo Escaleno " );
+		else{
+	   	System.out.printf("Este e um triangulo Escaleno " );
 	    
 		 } 
 		 
 	    	System.out.printf("\n\n\n" ); 
 		 
-	        System.out.print("Entre com o valor do cateto 1: ");
+	        System.out.print(" Coloque o valor do cateto 1: ");
                 cateto1 = scanner.nextDouble();
 
-                System.out.print("Entre com o valor do cateto 2: ");
+                System.out.print(" coloque o valor do cateto 2: ");
                 cateto2 = scanner.nextDouble();
 
        		hipotenusa = Math.sqrt(Math.pow(cateto1, 2) + Math.pow(cateto2, 2));
